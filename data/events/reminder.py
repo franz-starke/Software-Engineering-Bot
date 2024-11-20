@@ -28,8 +28,9 @@ class ReminderEvent(Event):
         await super().start()
 
         # Send reminder
-        embed = discord.Embed(color=0xfa5c07,title="***Erinnerung an alle: Protokoll letzter Woche noch einmal anschauen.***")
-        await self.bot.general_text_channel.send(self.bot.member_role,embed=embed)
+        embed = discord.Embed(color=0x0335fc,title="***Erinnerung an alle: Protokoll letzter Woche noch einmal anschauen und Überblick über Glossar machen.***")
+        embed.add_field(name="Link zu Protokoll",value="https://github.com/franz-starke/SE-Volleyball-Turnier-Belegprojekt/tree/main/docs/project_management")
+        await self.bot.general_text_channel.send(self.bot.member_role.mention,embed=embed)
 
     async def update(self):
         return True

@@ -1,7 +1,7 @@
 #!/usr/bin/python3
 
 #----------------------------------------------------
-# This is a discord bot to manage a Software-Engineering Project Version 1.0.0
+# This is a discord bot to manage a Software-Engineering Project Version 1.0.1
 # Created by gamexdifficulty
 # Programmed in Python 3.13.0
 # This code is licensed under GPLv3s
